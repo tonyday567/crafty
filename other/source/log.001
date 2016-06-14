@@ -1,0 +1,98 @@
+
+Crafty v25.0.1 (1 cpus)
+
+White(1): g4
+              time used:   9.56
+        time surplus   0.00  time limit 30.00 (2:30)
+        depth     time       score   variation (1)
+         15->   1.09/18.00   -0.48   1. ... d5 2. h3 e5 3. d3 Nc6 4. Nf3 Nf6
+                                     5. g5 Nh5 6. Nc3 Be6 7. e4 dxe4 8. Nxe4
+                                     Nf4 9. Bxf4 exf4
+         16     1.92/18.00   -0.49   1. ... d5 2. h3 e5 3. d3 Nc6 4. Nf3 Nf6
+                                     5. g5 Nh5 6. Nc3 Bb4 7. a3 Bxc3+ 8. bxc3
+                                     O-O 9. Rb1 Nf4
+         16->   1.99/18.00   -0.49   1. ... d5 2. h3 e5 3. d3 Nc6 4. Nf3 Nf6
+                                     5. g5 Nh5 6. Nc3 Bb4 7. a3 Bxc3+ 8. bxc3
+                                     O-O 9. Rb1 Nf4
+         17     4.28/18.00   -0.48   1. ... d5 2. g5 e5 3. d3 Nc6 4. Nf3 h6
+                                     5. Rg1 Be6 6. Nc3 Qd7 7. d4 hxg5 8. Nxe5
+                                     Nxe5 9. dxe5 Rxh2 10. Bxg5
+         17->   4.66/18.00   -0.48   1. ... d5 2. g5 e5 3. d3 Nc6 4. Nf3 h6
+                                     5. Rg1 Be6 6. Nc3 Qd7 7. d4 hxg5 8. Nxe5
+                                     Nxe5 9. dxe5 Rxh2 10. Bxg5
+         18     9.05/18.00   -0.63   1. ... d5 2. h3 e5 3. e3 Nc6 4. Nc3 Nf6
+                                     5. Bg2 d4 6. exd4 exd4 7. g5 dxc3 8. gxf6
+                                     cxd2+ 9. Bxd2 Be6 10. fxg7 Bxg7
+         18->   9.21/18.00   -0.63   1. ... d5 2. h3 e5 3. e3 Nc6 4. Nc3 Nf6
+                                     5. Bg2 d4 6. exd4 exd4 7. g5 dxc3 8. gxf6
+                                     cxd2+ 9. Bxd2 Be6 10. fxg7 Bxg7
+         19    16.99/18.00   -0.55   1. ... d5 2. e3 Nc6 3. Nc3 e5 4. d4 Be6
+                                     5. h3 exd4 6. exd4 Nf6 7. Nge2 Qe7 8. Be3
+                                     Qb4 9. Nf4 Qxb2 10. Nxe6 fxe6
+         19->  17.46/18.00   -0.55   1. ... d5 2. e3 Nc6 3. Nc3 e5 4. d4 Be6
+                                     5. h3 exd4 6. exd4 Nf6 7. Nge2 Qe7 8. Be3
+                                     Qb4 9. Nf4 Qxb2 10. Nxe6 fxe6
+        time=18.01(100%)  nodes=54327783(54.3M)  fh1=90%  pred=0  nps=3.0M
+        chk=588.1K  qchk=1.2M  fp=13.2M  mcp=5.4M  50move=0
+        LMReductions:  1/1.9M  2/1.3M  3/611.8K  4/153.8K  5/5.7K
+        null-move (R):  3/1.9M  4/89.3K  5/1.1K
+Black(1): d5
+              time used:  18.01
+
+       +---+---+---+---+---+---+---+---+
+    8  |<R>|<N>|<B>|<Q>|<K>|<B>|<N>|<R>|
+       +---+---+---+---+---+---+---+---+
+    7  |<P>|<P>|<P>|   |<P>|<P>|<P>|<P>|
+       +---+---+---+---+---+---+---+---+
+    6  |   | . |   | . |   | . |   | . |
+       +---+---+---+---+---+---+---+---+
+    5  | . |   | . |<P>| . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    4  |   | . |   | . |   | . |-P-| . |
+       +---+---+---+---+---+---+---+---+
+    3  | . |   | . |   | . |   | . |   |
+       +---+---+---+---+---+---+---+---+
+    2  |-P-|-P-|-P-|-P-|-P-|-P-|   |-P-|
+       +---+---+---+---+---+---+---+---+
+    1  |-R-|-N-|-B-|-Q-|-K-|-B-|-N-|-R-|
+       +---+---+---+---+---+---+---+---+
+         a   b   c   d   e   f   g   h
+
+note: scores are for the white side
+                        +-----------white----------+-----------black----------+
+material.......   0.05  |    comp     mg      eg   |    comp     mg      eg   |
+pawns..........  -0.20  |   -0.77   -0.77    0.29  |    0.57    0.57   -0.39  |
+passed pawns...   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+knights........   0.00  |   -0.58   -0.58   -0.58  |    0.58    0.58    0.58  |
+bishops........  -0.11  |    0.26    0.26    0.80  |   -0.37   -0.37   -0.91  |
+rooks..........   0.00  |   -0.38   -0.38   -0.38  |    0.38    0.38    0.38  |
+queens.........   0.00  |    0.00    0.00    0.00  |    0.00    0.00    0.00  |
+kings..........   0.00  |   -0.45   -0.45   -0.40  |    0.45    0.45    0.40  |
+castling.......   0.00  |   -0.60   -0.60    0.00  |    0.60    0.60    0.00  |
+pawn races.....   0.00  +--------------------------+--------------------------+
+total..........  -0.26
+White(2): e3 [pondering]
+        time surplus  11.99  time limit 30.20 (2:31)
+        depth     time       score   variation (18)
+         18     1.17/18.12   -0.66   2. (e3) Nc6 3. Nc3 e5 4. d4 <HT>
+         18->   1.29/18.12   -0.66   2. (e3) Nc6 3. Nc3 e5 4. d4 <HT>
+         19     5.33/18.12   -0.52   2. (e3) Nc6 3. Nc3 e5 4. d4 Be6 5. dxe5
+                                     Nxe5 6. h3 h5 7. gxh5 Nf6 8. Be2 Rh7
+                                     9. Rh2 Bb4 10. Bd2 Nc4 11. Bxc4 dxc4
+         19->   6.44/18.12   -0.52   2. (e3) Nc6 3. Nc3 e5 4. d4 Be6 5. dxe5
+                                     Nxe5 6. h3 h5 7. gxh5 Nf6 8. Be2 Rh7
+                                     9. Rh2 Bb4 10. Bd2 Nc4 11. Bxc4 dxc4
+         20    10.66/18.12   -0.55   2. (e3) Nc6 3. Nc3 e5 4. d4 Be6 5. dxe5
+                                     Nxe5 6. h3 h5 7. gxh5 Nf6 8. Be2 Nc4
+                                     9. Nf3 Rxh5 10. Rg1 Bxh3 11. Ng5 Rh4
+                                     12. Nxd5 Nxd5 13. Nxh3
+         20->  13.28/18.12   -0.55   2. (e3) Nc6 3. Nc3 e5 4. d4 Be6 5. dxe5
+                                     Nxe5 6. h3 h5 7. gxh5 Nf6 8. Be2 Nc4
+                                     9. Nf3 Rxh5 10. Rg1 Bxh3 11. Ng5 Rh4
+                                     12. Nxd5 Nxd5 13. Nxh3
+         21    23.54/18.12   -0.52   2. (e3) Nc6 3. Nc3 e5 4. d4 Be6 5. dxe5
+                                     Nxe5 6. h3 h5 7. gxh5 Nf6 8. Be2 Nc4 9. a3
+                                     c6 10. Rh2 Rh7 11. Rg2 Qb6 12. Bxc4 dxc4
+         21->  27.65/18.12   -0.52   2. (e3) Nc6 3. Nc3 e5 4. d4 Be6 5. dxe5
+                                     Nxe5 6. h3 h5 7. gxh5 Nf6 8. Be2 Nc4 9. a3
+                                     c6 10. Rh2 Rh7 11. Rg2 Qb6 12. Bxc4 dxc4

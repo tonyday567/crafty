@@ -1,0 +1,70 @@
+What is here?
+=============
+
+The following directories exist:
+
+book                 binary book files for Crafty.  At the least,
+                     you need a book.bin.  Most likely you will want
+                     a books.bin and bookc.bin (the crafty documentation
+                     explains their purpose).
+documentation        Documentation files.  There is a postscript version (.ps),
+                     a pure ASCII version (.ascii) and a groff version that
+                     can be used to produce any sort of output file you want.
+executables          these are windows executable files, that should run on
+                     most any processor around.  You can often compile the
+                     source yourself and optimize it for your specific hardware
+                     to get a faster executable.
+pgn                  PGN files that can be used to produce a larger or smaller
+                     book.bin.  Beware as "enormous.pgn" is just that. :)
+source               Here you will find all the source files.  Note that 
+                     version 20.11 is more recent than version 20.8.  The 
+                     xx.y version is set so that larger y is more current, not
+                     treating it as a decimal number.
+wccc.2005            log files from the 2005 WCCC tournament produced by Crafty
+                     on the 8-cpu Opteron box.
+wccc.2006            log files from the 2006 WCCC tournament produced by Crafty
+                     on the 8-cpu Opteron box.
+
+What do I need to download?
+===========================
+
+1.  You need a copy of the documentation.  While crafty is easy to run, and
+has some built-in help facilities, the documentation will help you learn how
+to use all the features the program has.
+
+2.  You need a copy of Crafty.  Source is the best bet, but if you don't feel
+comfortable compiling your own executable, you can find versions already 
+compiled and ready to run.  However, downloading the source does have some
+advantages, particularly it includes the files needed to annotate a game and
+save the output in html, as well as the necessary audio support files so that
+Crafty can speak the moves as they are made if you want to enable this.
+
+3.  You need at least a book.bin file from the book directory.  If you are going
+to play computer vs computer matches, you will want a bookc.bin, and the
+books.bin is useful to prevent it from playing ridiculous openings.
+
+Put everything in one directory, except for the endgame tables (if you download
+them) which should be put in a sub-directory named "TB" (until you learn how to
+put them somewhere else by reading over the crafty.doc information).
+
+You are set.
+
+Which version do I download?
+============================
+
+Currently 24.1 is the most recent, and it is certainly the strongest Crafty
+version to date.  The highest .x number is the most current, and should be the
+best.  Note that minor version numbers are sequential, so that 23.13 is more
+recent than 23.2 and so forth.
+
+What's next?
+============
+
+Read through the crafty.doc information.  It explains everything from how to
+create custom books, to using multiple-CPU machines, and so forth.  Then join
+the crafty mailing list (crafty-list@cis.uab.edu) and participate in the
+discussions there, get your questions answered, and so forth.
+
+see you there.
+
+

@@ -1,0 +1,6 @@
+bookpath=../book
+logpath=../log
+tbpath=../tb
+noise = 500000
+smpmt=4
+exit
